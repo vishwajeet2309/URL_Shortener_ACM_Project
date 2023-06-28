@@ -6,7 +6,6 @@ URLs are the uniform resource locator and the URL shortener is the tool that con
 This project uses the various npm packages from the npm registry which include 
 
 ##
-
 express-backend web application framework for Node.js used for building web applications
 mongoose-it is an asynchronous database driver, responsible for connecting to the database and performing query operations
 short-id-this module creates user-friendly and unique ids for our URLs
