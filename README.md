@@ -11,6 +11,11 @@ mongoose-it is an asynchronous database driver, responsible for connecting to th
 
 short-id-this module creates user-friendly and unique ids for our URLs
 
-nodemon-nodemon package will be installed as a development dependency. It will constantly monitor our applications by automatically restarting the server when any file changes.
+nodemon-this package installed as a development dependency. It will constantly monitor our applications by automatically restarting the server when any file changes.
 
 # Installation 
+
+Installed node.js for the backend part of project 
+
+generated the initial package 
+npm init
