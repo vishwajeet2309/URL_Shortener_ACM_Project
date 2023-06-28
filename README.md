@@ -23,7 +23,7 @@ installed express mongoose ejs shortid: npm i express mongoose ejs shortid
 
 Install nodemon as a dev dependency: npm i --save-dev nodemon
 
-some large files are here-
+some large files are here-https://drive.google.com/drive/folders/1hBJG-6TA4linFg80CZKWQZNWUArEdIZf?usp=drive_link
 
 # Getting Started 
 
