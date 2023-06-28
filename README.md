@@ -18,4 +18,10 @@ nodemon-this package installed as a development dependency. It will constantly m
 Installed node.js for the backend part of project 
 
 generated the initial package 
+
 npm init
+
+installed express mongoose ejs shortid
+
+npm i express mongoose ejs shortid
+
