@@ -13,7 +13,7 @@ short-id-this module creates user-friendly and unique ids for our URLs
 
 nodemon-this package installed as a development dependency. It will constantly monitor our applications by automatically restarting the server when any file changes.
 
-# Installation 
+# Prerequisites
 
 Installed node.js for the backend part of project 
 
@@ -23,28 +23,27 @@ installed express mongoose ejs shortid: npm i express mongoose ejs shortid
 
 Install nodemon as a dev dependency: npm i --save-dev nodemon
 
+some large files are here-
+
 # Getting Started 
 
 To start the server we can go to package file and add script : "devStart": "nodemon server.js"
 
-then to start the server command is :
-
-npm run devStart
+then to start the server command is: npm run devStart
 
 # Internal Working 
 
+Once the server is started, the backend starts working on the HTML main outline file using Bootstrap for the overall UI, including fonts, spacing, and colors. When a user inputs a URL to be shortened along with a corresponding note, a POST request is sent to the backend. The backend utilizes the shortid functionality to generate a shortened URL. It then adds the original URL, note, shortened URL, and the number of clicks to the MongoDB database. The updated data is displayed on the main webpage.
+
+The number of clicks for each URL is also displayed on the homepage, and upon refreshing the page, any changes are reflected. The MongoDB database is properly set up and linked. To enable database functionality, a Schema object is created to define the structure of the data to be stored. Using mongoose.model(), a model is created based on the Schema object. This model allows for various database operations on the corresponding collection.
+
+For implementing the search functionality, when text is entered in the search bar, the search request is processed. The find() function is then used to retrieve filtered data from the database. This function helps fetch the relevant data based on the provided search criteria. The search feature is applied to the fullurl, note, and shortUrl fields to provide user convenience.
+
+By utilizing these components and functionalities, the backend efficiently handles URL shortening, data storage, retrieval, and search operations, providing a seamless user experience on the frontend.
 
 # Lesson Learned 
 
-1.)Learned more about HTML, Javascript, MongoDB, EJS, and most importantly Node.js.
-
-2.)Working with Bootstrap :
-
-By using various bootstrap classes to implement the UI of the website.
-
-3.)Search functionality :
-
-By learning to work with $regex operator of MongoDb and the find function.
+Learned basics about HTML, Javascript, MongoDB, EJS, and most importantly Node.js and became familiar with Working with Bootstrap to implement the UI of the website. also know about Search functionality ,By learning to work with $regex operator of MongoDb and the find function.
 
 # Resouces and Refrences Used
 
@@ -67,21 +66,3 @@ https://www.youtube.com/watch?v=VM-2xSaDxJc
 5.)MongoDB tutorial :
 
 https://youtu.be/oSIv-E60NiU
-
-Other Resources used :
-
-a) Visual Studio Code (editor) :
-
-https://code.visualstudio.com/
-
-b) Bootstrap:
-
-https://getbootstrap.com/
-
-c) Node.js (runtime environment) :
-
-https://nodejs.org/en
-
-d) MongoDB Atlas:
-
-https://www.mongodb.com/atlas/database
