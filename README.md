@@ -74,7 +74,7 @@ a) Visual Studio Code (editor) :
 
 https://code.visualstudio.com/
 
-b) Bootstrap (for handling CSS part) :
+b) Bootstrap:
 
 https://getbootstrap.com/
 
@@ -82,6 +82,6 @@ c) Node.js (runtime environment) :
 
 https://nodejs.org/en
 
-d) MongoDB Atlas (cloud Database) :
+d) MongoDB Atlas:
 
 https://www.mongodb.com/atlas/database
