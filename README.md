@@ -17,17 +17,11 @@ nodemon-this package installed as a development dependency. It will constantly m
 
 Installed node.js for the backend part of project 
 
-generated the initial package 
+generated the initial package : npm init
 
-npm init
+installed express mongoose ejs shortid: npm i express mongoose ejs shortid
 
-installed express mongoose ejs shortid
-
-npm i express mongoose ejs shortid
-
-Install nodemon as a dev dependency :
-
-npm i --save-dev nodemon
+Install nodemon as a dev dependency: npm i --save-dev nodemon
 
 # Getting Started 
 
